@@ -1,0 +1,40 @@
+.container .row div {
+    display:inline-block;
+    margin: auto 10px;
+}
+
+.my-img{
+    width: 177px;
+    height: 150px;
+    background-image: url('http://fondopantalla.com.es/file/90/600x338/16:9/imgen-panor%C3%A1mica-golden-gate_2004894496.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -39px;
+    text-align: center;
+    border-radius: 5px;
+    
+
+}
+
+.father {
+    background-color: #fff;
+    position: relative;
+    height: 150px;
+    width: 204px;
+    margin: 0.8em;
+    border-radius: 5px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.legenda{
+    position: absolute;
+    bottom: 0;
+    min-width: 100px;
+    text-align: center;
+    left: 50px;
+}

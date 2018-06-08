@@ -1,0 +1,25 @@
+<p class="perfil">Perfiles</p>
+<div class="containertab">
+  <table class="registros">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let registro of datosTabla">
+        <td>
+          {{ registro.id }}
+        </td>
+        <td>
+          {{ registro.firstName }}
+        </td>
+        <td>
+          {{ registro.lastName }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
